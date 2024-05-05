@@ -17,6 +17,9 @@ class App extends StatelessWidget {
         BlocProvider(
           create: (context) => SelectFileBloc(),
         ),
+        BlocProvider(
+          create: (context) => ClassifierBloc(),
+        )
       ],
       child: const AppView(),
     );

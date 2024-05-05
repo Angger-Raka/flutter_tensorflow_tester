@@ -6,7 +6,7 @@ class FileHelper {
     if (result == null) {
       return null;
     }
-    return result.files.single.name;
+    return result.files.single.path;
   }
 
   Future<void> clearFile() async {
